@@ -1,0 +1,483 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.divlogo {
+  /* border: 1px solid rgb(0, 0, 0); */
+  width: 110px;
+  height: 88px;
+  float: left;
+  
+  /* margin-top: 5px; */
+}
+
+.logo {
+  width: 110px;
+  /* margin-top: 2px; */
+  /* border-top-right-radius: 20px; */
+  /* border-bottom-left-radius: 20px; */
+  height: 70px;
+  /* border-radius: 10px; */
+  /* margin: auto; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* justify-items: center; */
+  /* align-content: center; */
+}
+
+header {
+  height: 70px;
+  /* border-radius: 50px; */
+  background-color: rgb(255, 166, 1);
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+ul {
+  float: right;
+  /* border: 2px solid rebeccapurple; */
+  margin-right: 55px;
+  margin-top: 11px;
+  width: 610px;
+  padding-bottom: 5px;
+  /* justify-content: center; */
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+    /* height: 10px; */
+  margin-top: 5px;
+  padding: 8px;
+  margin: 5px;
+  /* clear: right; */
+  /* margin-left: 80px; */
+ /* border: 1px solid red; */
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* transition:  background-color 0.5s; */
+}
+
+li:hover {
+    border-radius: 60px;
+    background-color: white;
+    /* margin-top: 10px; */
+    /* padding-bottom: 10px; */
+    height: 40px;
+}
+
+#top_apply {
+  color: white;
+  font-weight: bold;
+}
+
+#top_apply:hover {
+  /* width: 35px; */
+  color: rgb(0, 0, 0);
+  /* border-radius: 10px; */
+  /* background-color: white; */
+  text-shadow: 5px 5px 10px white;
+  /* box-shadow: 0px 0px 15px white; */
+}
+
+.sticky {
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  display: flex;
+  width: 272px;
+  height: 43px;
+  /* border: 1px solid red; */
+  background-color: orange;
+  border-radius: 5px;
+}
+.whatdiv {
+  margin-top: 5px;
+  display: inline-block;
+
+  /* padding-bottom: 15px; */
+  /* margin-bottom: 15px; */
+  /* border: 1px solid rebeccapurple; */
+}
+
+.whatsapplogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31px;
+  border-radius: 50px;
+  /* padding-bottom: 5px; */
+  /* padding-top: 5px; */
+}
+
+.whatstext {
+  margin-top: 5px;
+  display: inline-block;
+  padding: 3px;
+  padding-left: 12px;
+  font-weight: bold;
+
+  /* border: 1px solid rebeccapurple; */
+}
+
+.whatstext a {
+  color: white;
+}
+
+section {
+  text-align: center;
+  /* border: 1px solid red; */
+  background-color: rgb(255, 255, 255);
+}
+
+.mainbody {
+}
+
+.midtext {
+  font-size: 69px;
+  font-weight: bold;
+}
+.midtext1{
+    font-size: 22px;
+}
+
+strong{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.midtextorange{
+    font-size: 2px;
+}
+section > p {
+  font-size: 77px;
+  color: rgb(92, 92, 92);
+}
+
+.fiveimage {
+  width: 350px;
+}
+.mainmid {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 30px 10px;
+}
+
+
+.headingmidtext {
+  font-size: 32px;
+  color: rgb(90, 90, 90);
+}
+
+.apply_button {
+  margin: 20px;
+  width: 110px;
+  height: 52px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* section two */
+
+.section_two {
+  /* border: 1px solid rebeccapurple ; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+  /* align-items: center; */
+  padding: 50px;
+  background-color: rgb(255, 249, 227);
+  /* background-color: rgb(255, 166, 1); */
+}
+
+.block1 {
+  /* display: flex; */
+  background-color: rgb(255, 255, 255);
+  /* flex-wrap: wrap; */
+}
+
+.sectiontwofirstbox {
+  border: 1px solid orange;
+  width: 375px;
+  height: 190px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px orange;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  /* flex-wrap: wrap; */
+}
+
+.midlastpara {
+  /* border: 1px solid red; */
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.orange
+ {
+  color: orange;
+  font-size: 18px;
+  /* font-weight: 900; */
+}
+
+
+
+/* MENTOR PIC section START */
+
+.top_text {
+  padding: 27px;
+}
+
+.text1, .app_text {
+  font-size: 20px;
+  color: grey;
+}
+
+.text2, .textbottom {
+  color: orange;
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.mentor_main_container {
+  /* display: flex; */
+
+}
+
+.mentorrow1,
+.mentorrow2 {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mentorpiccontainer {
+  border: 1px solid rgb(0, 0, 0);
+  height: 300px;
+
+  /* padding: 10px; */
+  margin: 20px;
+  transition:  box-shadow 0.99s ;
+  box-shadow: 2px 2px 10px rgb(95, 95, 95);
+}
+
+.mentorpiccontainer:hover{
+    /* size: inherit; */
+    box-shadow: 0px 0px 20px rgb(73, 131, 219);
+}
+
+.mentor_pic {
+  /* height: 300px; */
+  /* width: 250px; */
+
+  height: 250px;
+  /* border: 1px solid red; */
+
+}
+
+ 
+
+.mentorname {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  /* margin-top: 12px; */
+  /* border: 1px solid rebeccapurple; */
+  /* border: 1px solid red; */
+  /* align-items: stretch; */
+}
+
+.top_text {
+}
+
+ 
+
+
+/* MENTOR PIC section END */
+
+/* APPLICATION PROCESS START */
+
+
+.textbottom{
+    font-size: 32px;
+}
+.section_three {
+  /* border: 1px solid rebeccapurple ; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+  /* align-items: center; */
+  padding: 50px;
+  /* background-color: rgb(185, 45, 45); */
+  background-color: rgb(255, 249, 227);
+}
+
+.app_text >p {
+    color: gray;
+}
+
+.application_start {
+    padding: 40px;
+    background-color: rgb(255, 249, 227);
+  /* border: 1px solid red; */
+  /* margin: 50px; */
+
+  
+  /* display: inline-block; */
+  /* float: left; */
+  
+}
+
+.application > p {
+  /* color: gray; */
+}
+
+/* FOOTER CSS START HERE */
+
+.footer_main_container{
+  /* border: 1px solid red; */
+  overflow: hidden;
+}
+
+.footer_first_row{
+  /* border: 1px solid rebeccapurple; */
+  /* margin: 10px; */
+  display: flex;
+  margin-top: 10px;
+  border-bottom: 1px solid orange;
+  
+}
+
+.row_one_text{
+  /* border: 1px solid red; */
+  padding: 10px;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 99px;
+  
+
+}
+.row_one_icon{
+  /* border: 2px solid rgb(9, 255, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 550px;
+  /* margin: 15px; */
+  /* padding: 5px; */
+}
+
+.row_one_icon img{
+  width: 44px;
+  /* border: 1px solid red; */
+  /* padding: 5px; */
+  /* display: inline-block; */
+  /* margin-top: 20px; */
+  margin-left: 30px;
+}
+
+/* FOOTER ROW TWO HAVING THREE BLOCK */
+
+.logo_air img{
+  width: 255px;
+}
+
+.row_two{
+  /* border: 1px solid royalblue; */
+  display: flex;
+  /* justify-content: center; */
+}
+
+.logo_box{
+  /* border: 1px solid red; */
+  margin-left: 85px;
+  box-shadow: 1px 1px 10px rgb(255, 190, 104);
+}
+
+.box_one{
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin-left: 100px;
+  padding: 10px;
+  /* justify-content: center; */
+
+}
+
+.box_one_text{
+  font-size: 20px;
+}
+
+.box_two{
+  /* border: 1px solid rgb(40, 228, 15); */
+  padding-top: 40px;
+  /* margin: 10px; */
+  /* display: inline-block; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.links{
+  padding: 15px;
+  font-weight: bold;
+  /* border: 1px solid red; */
+  width: 150px;
+  /* padding-top: 20px; */
+  /* margin: 10px; */
+}
+
+.box_three{
+  /* border: 1px solid blue; */
+  padding: 40px;
+}
+.link{
+  padding: 15px;
+  font-weight: bold;
+  /* border: 1px solid red; */
+  /* width: 150px; */
+  /* margin: 10px; */
+}
+
+
+/* FOOTER CSS END HERE */
+
+/* EXTREME END BLOCK */
+
+.extreme_end{
+  background-color: rgb(255, 249, 227);
+  padding: 40px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.last_text{
+  /* margin-left: 550px; */
+}
